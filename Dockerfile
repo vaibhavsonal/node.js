@@ -2,7 +2,7 @@
 FROM node:12.2.0-alpine
 
 #set the working directory to ./app
-WORKDIR app
+WORKDIR /app
 #install app dependency
 COPY package.json ./
 #install any needed packages
